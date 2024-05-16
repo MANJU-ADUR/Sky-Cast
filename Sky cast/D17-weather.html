@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Details</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="searchbar">
+            <input id="cityname" type="" placeholder="Enter city name">
+            <button onclick="fetchdetails()" class="btn">search</button>
+        </div>
+        <div class="detail">
+            <h1 id="citydetails">city name</h1>
+            <h2 id="countryname">country</h2>
+            <div class="d1">
+                <img height="50px" width="50px" src="temp.png" alt="">
+                <p id="temperature">C</p>
+            </div>
+            <div class="d2">
+                <img id="weatherimage" src="sunny.png   ">
+            </div>
+            <p id="date">date</p>
+        </div>
+
+    </div>
+    <script src="D18-weather.js"></script>
+</body>
+
+</html>

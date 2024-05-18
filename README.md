@@ -1,0 +1,1 @@
+This JavaScript Weather application seamlessly retrieves weather data, delivering dynamic updates through DOM manipulation methods and utilizing JSON integration, async/await, and event handling for a User-friendly experience
